@@ -1,6 +1,6 @@
 """configuation and mapping for the project"""
 
-ticker_to_name = {
+ticker_to_cn_name = {
     "801010": "农林牧渔",
     "801030": "基础化工",
     "801040": "钢铁",
@@ -31,8 +31,43 @@ ticker_to_name = {
     "801960": "石油石化",
     "801970": "环保",
     "801980": "美容护理",
+    "000001": "上证指数",
+}
+
+ticker_to_en_name = {
+    "801010": "Agriculture",
+    "801030": "Chemicals",
+    "801040": "Steel",
+    "801050": "Nonferrous Metals",
+    "801080": "Electronics",
+    "801110": "Household Appliances",
+    "801120": "Food & Beverage",
+    "801130": "Textile & Clothing",
+    "801140": "Light Manufacturing",
+    "801150": "Healthcare",
+    "801160": "Utilities",
+    "801170": "Transportation",
+    "801180": "Real Estate",
+    "801200": "Commercial & Trade",
+    "801210": "Social Services",
+    "801710": "Building Materials",
+    "801720": "Building Decoration",
+    "801730": "Electrical Equipment",
+    "801740": "National Defense",
+    "801750": "Computers",
+    "801760": "Media",
+    "801770": "Telecommunications",
+    "801780": "Banks",
+    "801790": "Non-bank Financials",
+    "801880": "Automobiles",
+    "801890": "Machinery",
+    "801950": "Coal",
+    "801960": "Oil & Gas",
+    "801970": "Environmental Protection",
+    "801980": "Cosmetics",
+    "000001": "SSE Composite Index",
 }
 
 # BEGIN: 5f7b3d7d8c1c
-name_to_ticker = {v: k for k, v in ticker_to_name.items()}
+cn_name_to_ticker = {v: k for k, v in ticker_to_cn_name.items()}
 # END: 5f7b3d7d8c1c

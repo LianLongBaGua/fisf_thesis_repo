@@ -18,10 +18,12 @@
 #### Introduction to a typical sector rotation stratetgy
 - Merrill Clock provides the theoretical backdrop of this strategy
 - it means you only have to think about the cyclical nature of sectors, not macro or micro factors
-- But in china the NBER leading indicators are not readily available so we use something else
-- Actually we don't use that something else because we do not really care. 
 - We know that rotation exists. sometimes rotation fast sometimes slow. but in the end it doesnt really matter. 
 - All we want is to find the next rotation and achieve superior return. which is why we use momentum.
+- empirical findings in the US show that alphas tend to persist for US industry portfolios for some time
+  - so now we are going to put forth two statements: 1. whether alphas for industry portfolios persist in cn stock market
+  - i feel like we just go with the strategy and not worry about persistence
+  - *in that other paper the alpha was regressed on a 36 month rolling window* so we shall do that here too
 #### Introduction of Momentum, two kinds
 - tsmom, xsmom
 - talk about paper "does industries exlain momentum?"
@@ -40,8 +42,8 @@
 ### Methodology
 #### methodology on procuring and processing data
 - describing how data is made, what is the shenwan indices and how it's calculated
-- can talk about Robert R.Grauer (can't really find) in their approach to industry rotation where etf's were not broadly available
-  - REF: Industry rotation in the U.S. stock market: 1934-1986 returns on passive, semi-passive, and active strategies ('can't find')
+  - data
+  - methodology
 ### Analysis and Discussion
 #### perform regression analysis of trendline factor on data
 - regress returns on t-n return (xs or ts doesn't matter. maybe xs is better since we just choose one)
