@@ -25,7 +25,7 @@
   - i feel like we just go with the strategy and not worry about persistence
   - *in that other paper the alpha was regressed on a 36 month rolling window* so we shall do that here too
 #### Introduction of Momentum, two kinds
-- tsmom, xsmom
+- xsmom
 - talk about paper "does industries exlain momentum?"
   - a great paper that basically answers all of my questions. 
   - It says most momentum strategies simply disappear after controlling for industry momentum. 
