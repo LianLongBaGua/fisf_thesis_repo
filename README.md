@@ -24,7 +24,7 @@
   - so now we are going to put forth two statements: 1. whether alphas for industry portfolios persist in cn stock market
   - i feel like we just go with the strategy and not worry about persistence
   - *in that other paper the alpha was regressed on a 36 month rolling window* so we shall do that here too
-#### Introduction of Momentum, two kinds
+#### Introduction of Momentum
 - xsmom
 - talk about paper "does industries exlain momentum?"
   - a great paper that basically answers all of my questions. 
